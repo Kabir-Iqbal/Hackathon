@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 15px 130px;
+    background-color: darkgray;
+}
+#resume-container{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#image{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+h1 , p {
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    padding: 2px;
+}
+p{
+    color: darkslategray;
+}
+h3{
+    color: lightslategray;
+    margin-left: 12px;
+    padding: 8px;
+    padding-top: 20px;
+}
+h4{
+    color: darkslategray;
+    margin-left: 12px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+#skill{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.clickbutton{
+    display: flex;
+}
+#toogle{
+    justify-content: center;
+}
+button{
+    margin-top: 8px;
+    margin-bottom: 8px ;
+    background-color: darkgray;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 7px;
+}
+button:hover{
+    margin-top: 8px;
+    margin-bottom: 8px ;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    padding: 7px;
+
+}
+
+
+#skill-background{
+    border: 2px solid darkcyan;
+    box-shadow: 5em;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    background-color: darkcyan;
+}
+
+
+
+#line{
+    width: 95%;
+    height: 1px;
+    border: 1px solid blue;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
